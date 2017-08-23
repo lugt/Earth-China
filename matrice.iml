@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="79ddf3fa-8c97-4748-8155-3df393731d13" />
+        </datasource-map>
+        <naming-strategy-map>
+          <unit-entry name="hibernate.cfg.xml" />
+        </naming-strategy-map>
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="netty-all-4.1.7" level="project" />
+    <orderEntry type="library" name="netty-all-4.1.7.Final" level="project" />
+    <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="Hibernate 5.2.3-5.2.3" level="project" />
+    <orderEntry type="library" name="hibernate-validator-5.3.4.Final" level="project" />
+    <orderEntry type="library" name="hibernate-validator-annotation-processor-5.3.4.Final" level="project" />
+    <orderEntry type="library" name="hibernate-validator-cdi-5.3.4.Final" level="project" />
+    <orderEntry type="library" name="Hibernate 5.2.3-5.2.3" level="project" />
+    <orderEntry type="library" name="hibernate-c3p0-5.2.7.Final" level="project" />
+    <orderEntry type="library" name="c3p0-0952" level="project" />
+    <orderEntry type="library" name="mchange-commons-java-0211" level="project" />
+    <orderEntry type="library" name="HdrHistogram-2.1.8" level="project" />
+    <orderEntry type="library" name="commons-pool2-2.4.2 (2)" level="project" />
+    <orderEntry type="library" name="LatencyUtils-2.0.3" level="project" />
+    <orderEntry type="library" name="lettuce-5.0.0-20170127.215700-29" level="project" />
+    <orderEntry type="library" name="reactor-core-3.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="reactive-streams-1.0.0" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.35-bin (2)" level="project" />
+    <orderEntry type="library" name="commons-codec-1.9" level="project" />
+    <orderEntry type="module" module-name="connection" />
+    <orderEntry type="library" name="json-20160810" level="project" />
+  </component>
+</module>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lettuce-5.0.0-20170127.215700-29">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/lettuce-5.0.0-20170127.215700-29.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

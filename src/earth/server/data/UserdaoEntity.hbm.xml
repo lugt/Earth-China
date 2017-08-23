@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="earth.server.data.UserdaoEntity" table="userdao" schema="" catalog="earthbase">
+        <id name="etid" column="etid" type="long">
+            <generator class="identity"/>
+        </id>
+        <property name="displayName">
+            <column name="displayName" sql-type="varchar" length="100" not-null="true"/>
+        </property>
+        <property name="password">
+            <column name="password" sql-type="varchar" length="64" not-null="true"/>
+        </property>
+        <property name="extendv">
+            <column name="extendv" sql-type="varchar" length="60" not-null="true"/>
+        </property>
+        <property name="cellphone">
+            <column name="cellphone" sql-type="bigint"/>
+        </property>
+        <property name="status">
+            <column name="status" sql-type="tinyint" not-null="true"/>
+        </property>
+        <property name="identity">
+            <column name="identity" sql-type="varchar" length="50"/>
+        </property>
+        <property name="email">
+            <column name="email" sql-type="varchar" length="70"/>
+        </property>
+        <property name="sessid">
+            <column name="sessid" sql-type="varchar" length="32"/>
+        </property>
+    </class>
+</hibernate-mapping>

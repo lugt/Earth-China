@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="earth.server.data.ExtendvEntity" table="extendv" schema="extendv" catalog="earthbase">
+        <id name="etid">
+            <column name="etid" sql-type="bigint" not-null="true"/>
+        </id>
+        <property name="facial">
+            <column name="facial" sql-type="int"/>
+        </property>
+        <property name="facialset">
+            <column name="facialset" sql-type="varchar" length="328"/>
+        </property>
+        <property name="finger">
+            <column name="finger" sql-type="varchar" length="50"/>
+        </property>
+        <property name="print">
+            <column name="print" sql-type="varchar" length="400"/>
+        </property>
+        <property name="authen">
+            <column name="authen" sql-type="varchar" length="50"/>
+        </property>
+        <property name="authentime">
+            <column name="authentime" sql-type="bigint" not-null="true"/>
+        </property>
+        <property name="authenmeth">
+            <column name="authenmeth" sql-type="varchar" length="256"/>
+        </property>
+    </class>
+</hibernate-mapping>
